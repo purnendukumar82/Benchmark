@@ -8,5 +8,10 @@ public class BaseTest1 {
 	{
 		
 	}
+	@Test
+	public void testA()
+	{
+		
+	}
 
 }
