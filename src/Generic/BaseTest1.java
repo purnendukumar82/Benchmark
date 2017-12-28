@@ -25,7 +25,7 @@ public class BaseTest1 implements IAutoConst{
 	
 	@BeforeMethod(alwaysRun=true)
 	
-	public void openApp(@Optional("chrome")String browser)
+	public void openApp(@Optional("chrome")String browser) throws InterruptedException
 	{
 		if(browser.equals("chrome"))
 		{
@@ -39,7 +39,7 @@ public class BaseTest1 implements IAutoConst{
 		
 		String url=AL.getProperty(SETTING_PATH, "URL");
 		driver.get(url);
-		
+		Thread.sleep(4000);
 		String strIto=AL.getProperty(SETTING_PATH,"ITO");
 		long ITO = Long.parseLong(strIto);
 		
