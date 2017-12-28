@@ -6,7 +6,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class XL {
-	public String getCellValue(String path, String sheet, int r, int c)
+	public static String getCellValue(String path, String sheet, int r, int c)
 	{   String v1="";
 		try {
 		Workbook wb1 = WorkbookFactory.create(new FileInputStream(path));

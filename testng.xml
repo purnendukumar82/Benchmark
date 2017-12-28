@@ -2,7 +2,7 @@
   <test name="Test">
   <parameter name="browser" value="chrome"/>
   <packages>
-   <package name="Generic"/>
+   <package name="Script"/>
   </packages>
   </test>
 </suite>

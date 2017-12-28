@@ -32,7 +32,7 @@ public class EnterTimeTrackPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void verifyTitlepage(WebDriver driver, String eTitle)
+	public void verifyTitlePage(WebDriver driver, String eTitle)
 	{ 
 		WebDriverWait wait=new WebDriverWait(driver,10);
 		try {
