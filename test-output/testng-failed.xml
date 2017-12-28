@@ -3,6 +3,11 @@
 <suite thread-count="-1" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Login"/>
+      </run>
+    </groups>
     <classes>
       <class name="Script.ValidLogin">
         <methods>
