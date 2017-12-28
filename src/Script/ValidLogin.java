@@ -26,6 +26,7 @@ public class ValidLogin extends BaseTest1{
 	   EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
 	   Thread.sleep(4000);
 	   e.verifyTitlePage(driver, eTitle);
+	   Thread.sleep(4000);
 			   
 	}
 
