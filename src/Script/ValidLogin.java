@@ -25,8 +25,7 @@ public class ValidLogin extends BaseTest1{
 		//verify the page is displayed or not
 	   EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
 	   e.verifyTitlePage(driver, eTitle);
-		
-		
+			   
 	}
 
 }
