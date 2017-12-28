@@ -1,5 +1,6 @@
 <suite name="Suite">
   <test name="Test">
+  <parameter name="browser" value="chrome"/>
   <packages>
    <package name="Generic"/>
   </packages>

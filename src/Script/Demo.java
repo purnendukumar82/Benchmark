@@ -8,13 +8,7 @@ import org.testng.annotations.BeforeMethod;
 
 
 public class Demo{
-	@BeforeMethod
-	public void openTest()
-	{
-		Reporter.log("Open test",true);
-	}
-	
-	
+		
 	@Test
 	public void testA()
 	{
@@ -27,13 +21,4 @@ public class Demo{
 		Reporter.log("Run testB",true);
 	}
 	
-	@AfterMethod
-	public void closeApp(ITestResult res)
-	{
-		String name=res.getName();
-		int status=res.getStatus();
-		Reporter.log("close test:"+name+"status:"+status,true);
-	}
-
-
 }
