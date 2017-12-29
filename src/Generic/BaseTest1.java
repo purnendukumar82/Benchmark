@@ -39,7 +39,6 @@ public class BaseTest1 implements IAutoConst{
 		
 		String url=AL.getProperty(SETTING_PATH, "URL");
 		driver.get(url);
-		Thread.sleep(4000);
 		String strIto=AL.getProperty(SETTING_PATH,"ITO");
 		long ITO = Long.parseLong(strIto);
 		

@@ -1,11 +1,6 @@
 <suite name="Suite">
   <test name="Test">
-  <groups>
-    <run>
-      <include name="Login"/>
-    </run>
-  </groups>
-  <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="chrome"/>
   <packages>
    <package name="Script"/>
   </packages>
