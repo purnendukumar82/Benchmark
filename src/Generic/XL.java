@@ -20,7 +20,7 @@ public class XL {
 		
 	}
    
-	public int getRowCount(String path,String sheet)
+	public static int getRowCount(String path,String sheet)
 	{   
 		int rc=0;
 		try {
