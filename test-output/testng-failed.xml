@@ -11,6 +11,13 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- Script.CheckProductVersion -->
+      <class name="Script.InvalidLogin">
+        <methods>
+          <include name="openApp"/>
+          <include name="testInvalidLogin"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- Script.InvalidLogin -->
       <class name="Script.ValidLogin">
         <methods>
           <include name="openApp"/>
